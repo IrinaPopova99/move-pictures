@@ -1,0 +1,19 @@
+.gallery {
+    display: flex;
+    /* display: -webkit-flex; */
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: start;
+    flex-wrap: wrap;
+
+}
+img {
+    margin: 20px;
+}
+button {
+    border: 2px solid;
+    background-color: tomato;
+    width: 150px;
+    height: 40px;
+    margin: 20px;
+}
